@@ -19,15 +19,17 @@ div {
   top: 0;
   width: 100%;
 }
+
+.topnav a {
+  margin-top: 10px;
+}
+
 a {
   color: white;
   padding: 15pt;
   font-size: 20pt;
   text-decoration: none;
   text-align: center;
-}
-a:hover {
-  background-color: lightblue;
 }
 #welcome-section {
   background-color: #111;

@@ -1,0 +1,89 @@
+@media screen and (min-width: 480px) {
+    img {
+      height: 10vh;
+    }
+  }
+  html {
+    margin: 0pt;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+  }
+  div {
+    margin: 0px;
+    width: 100%;
+  }
+  .topnav {
+    text-align: right;
+    background-color: darkred;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+    margin-top: 10px;
+  }
+  
+  a {
+    color: white;
+    padding: 15pt;
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: center;
+  }
+  #welcome-section {
+    background-color: #111;
+    margin: 0px;
+    height: 100vh;
+  }
+  #welcome-section h1 {
+    padding-top: 50vh;
+  }
+  #projects {
+    height: 100vh;
+    background-color: #080a1a;
+  }
+  #projects h1 {
+    padding-top: 25vh;
+  }
+  #projects img {
+    height: 250px;
+    width: 250px;
+  }
+  #projects a {
+    font-size: 15pt;
+  }
+  .profile-link {
+    height: 100vh;
+    background-color: #333;
+  }
+  .profile-link h1 {
+    padding-top: 25vh;
+  }
+  h1 {
+    text-align: center;
+    font-size: 35pt;
+    color: lightgrey;
+  }
+  h3 {
+    text-align: center;
+    color: darkred;
+    font-size: 20pt;
+    font-weight: 10;
+    font-family: 'Poppins', sans-serif;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 75px;
+    width: 75px;
+  }
+  .project-tile {
+    text-align: center;
+  }
+  .project-tile a {
+    padding-top: 25px;
+  }
