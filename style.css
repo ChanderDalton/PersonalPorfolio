@@ -3,7 +3,6 @@
     height: 10vh;
   }
 }
-
 html {
   margin: 0pt;
   font-family: 'Raleway', sans-serif;
@@ -12,13 +11,12 @@ div {
   margin: 0px;
   width: 100%;
 }
-
 .topnav {
   text-align: right;
   background-color: darkred;
   height: 50px;
   position: fixed;
-  top: 0; 
+  top: 0;
   width: 100%;
 }
 a {
@@ -28,7 +26,6 @@ a {
   text-decoration: none;
   text-align: center;
 }
-
 a:hover {
   background-color: lightblue;
 }
@@ -36,41 +33,36 @@ a:hover {
   background-color: #111;
   margin: 0px;
   height: 100vh;
-  
-  h1 {
-    padding-top: 50vh;
-  }
+}
+#welcome-section h1 {
+  padding-top: 50vh;
 }
 #projects {
   height: 100vh;
   background-color: #080a1a;
-  h1 {
-    padding-top: 25vh;
-  }
-  
-  img {
-    height: 250px;
-    width: 250px;
-  }
-  a {
-    font-size: 15pt;
-  }
 }
-
+#projects h1 {
+  padding-top: 25vh;
+}
+#projects img {
+  height: 250px;
+  width: 250px;
+}
+#projects a {
+  font-size: 15pt;
+}
 .profile-link {
   height: 100vh;
   background-color: #333;
-  
-  h1 {
-    padding-top: 25vh;
-  }
 }
-
+.profile-link h1 {
+  padding-top: 25vh;
+}
 h1 {
-   text-align: center;
+  text-align: center;
   font-size: 35pt;
   color: lightgrey;
-  }
+}
 h3 {
   text-align: center;
   color: darkred;
@@ -86,10 +78,9 @@ img {
   height: 75px;
   width: 75px;
 }
-
 .project-tile {
   text-align: center;
-  a {
-    padding-top: 25px;
-  }
+}
+.project-tile a {
+  padding-top: 25px;
 }
